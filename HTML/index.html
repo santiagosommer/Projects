@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>            
+                <th>Consumo111</th>
+                <th>Costo11</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 34</td>
+        </tfoot>
+        
+        </table>
+    <form action="/formulario" method="GET">
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ul>
+
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>
+                <ol>
+                    <li style="list-style-type:lower-alpha" >Elemento 1</li>
+                    <li style="list-style-type:lower-alpha" >Elemento 2</li>
+                </ol>
+            </li>
+        </ol>
+
+        <label for="nombre"> Nombre </label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido"> Apellido </label>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario"> Comentario </label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea>
+        <br>
+        <button type="button">Enviar</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto heading</h6>
+    <p>Primer parrafo</p>
+    <p>Segundo <span style="color:blue">parrafo pero con color</span></p>
+    <h2>heading</h2>
+    <!-- texto -->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <img src="img/whoopie.png" width="400" />
+</body>
+</html>
